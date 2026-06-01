@@ -1,0 +1,12 @@
+{
+  "name": "azure-regional-demo",
+  "version": "1.0.0",
+  "description": "Azure Multi Region POC",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

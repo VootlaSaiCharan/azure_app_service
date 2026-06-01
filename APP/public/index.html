@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure App Service Regional Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Azure App Service Multi-Region POC</h1>
+
+        <div class="card">
+            <h2>Application Details</h2>
+
+            <p><strong>Application Name:</strong> <span id="appName"></span></p>
+            <p><strong>Region:</strong> <span id="region"></span></p>
+            <p><strong>Resource Group:</strong> <span id="resourceGroup"></span></p>
+            <p><strong>Front Door:</strong> <span id="frontDoor"></span></p>
+            <p><strong>Hostname:</strong> <span id="hostname"></span></p>
+            <p><strong>Instance ID:</strong> <span id="instanceId"></span></p>
+            <p><strong>Version:</strong> <span id="version"></span></p>
+            <p><strong>Deployment Time:</strong> <span id="deploymentTime"></span></p>
+            <p><strong>Current UTC Time:</strong> <span id="currentTime"></span></p>
+            <p><strong>Status:</strong> <span id="status"></span></p>
+        </div>
+
+        <footer>
+            Served via Azure Front Door
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
